@@ -14,10 +14,10 @@ define(
         return Component.extend({
             redirectAfterPlaceOrder: false,
             defaults: {
-                template: 'CodeCustom_StaticPayment/gdwn_cash_payment/checkout'
+                template: 'CodeCustom_StaticPayment/gdwncash_payment/checkout'
             },
             getCode: function() {
-                return 'gdwn_cash_payment';
+                return 'gdwncash_payment';
             },
             isActive: function() {
                 return true;

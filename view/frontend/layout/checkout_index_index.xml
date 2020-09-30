@@ -18,22 +18,22 @@
                                                     <item name="children" xsi:type="array">
                                                         <item name="renders" xsi:type="array">
                                                             <item name="children" xsi:type="array">
-                                                                <item name="gdwn_banktransfer_payment-payments" xsi:type="array">
+                                                                <item name="gdwnbanktransfer_payment-payments" xsi:type="array">
                                                                     <item name="component" xsi:type="string">
-                                                                        CodeCustom_StaticPayment/js/view/gdwn_banktransfer_payment/checkout
+                                                                        CodeCustom_StaticPayment/js/view/gdwnbanktransfer_payment/checkout
                                                                     </item>
                                                                     <item name="methods" xsi:type="array">
-                                                                        <item name="gdwn_banktransfer_payment" xsi:type="array">
+                                                                        <item name="gdwnbanktransfer_payment" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
                                                                         </item>
                                                                     </item>
                                                                 </item>
-                                                                <item name="gdwn_cash_payment-payments" xsi:type="array">
+                                                                <item name="gdwncash_payment-payments" xsi:type="array">
                                                                     <item name="component" xsi:type="string">
-                                                                        CodeCustom_StaticPayment/js/view/gdwn_cash_payment/checkout
+                                                                        CodeCustom_StaticPayment/js/view/gdwncash_payment/checkout
                                                                     </item>
                                                                     <item name="methods" xsi:type="array">
-                                                                        <item name="gdwn_cash_payment" xsi:type="array">
+                                                                        <item name="gdwncash_payment" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
                                                                         </item>
                                                                     </item>

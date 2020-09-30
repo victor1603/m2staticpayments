@@ -14,10 +14,10 @@ define(
         return Component.extend({
             redirectAfterPlaceOrder: false,
             defaults: {
-                template: 'CodeCustom_StaticPayment/gdwn_banktransfer_payment/checkout'
+                template: 'CodeCustom_StaticPayment/gdwnbanktransfer_payment/checkout'
             },
             getCode: function() {
-                return 'gdwn_banktransfer_payment';
+                return 'gdwnbanktransfer_payment';
             },
             isActive: function() {
                 return true;
