@@ -1,5 +1,5 @@
 {
-    "name": "codecustom/module-static-payment",
+    "name": "codecustom/module-staticpayment",
     "description": "Magento 2 static payments methods",
     "type": "magento2-module",
     "version": "1.0.2",
