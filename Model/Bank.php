@@ -9,7 +9,7 @@ use Magento\Quote\Api\Data\CartInterface;
 
 class Bank extends AbstractMethod
 {
-    const METHOD_CODE = 'gdwn_banktransfer_payment';
+    const METHOD_CODE = 'gdwnbanktransfer_payment';
 
     protected $_code = self::METHOD_CODE;
 

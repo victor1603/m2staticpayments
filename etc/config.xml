@@ -2,20 +2,20 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <payment>
-            <gdwn_banktransfer_payment>
+            <gdwnbanktransfer_payment>
                 <active>0</active>
                 <title>GDWN Bank transfer</title>
                 <order_status>pending</order_status>
                 <model>CodeCustom\StaticPayment\Model\Bank</model>
                 <group>offline</group>
-            </gdwn_banktransfer_payment>
-            <gdwn_cash_payment>
+            </gdwnbanktransfer_payment>
+            <gdwncash_payment>
                 <active>0</active>
                 <title>GDWN Cash payment</title>
                 <order_status>pending</order_status>
                 <model>CodeCustom\StaticPayment\Model\Cash</model>
                 <group>offline</group>
-            </gdwn_cash_payment>
+            </gdwncash_payment>
         </payment>
     </default>
 </config>

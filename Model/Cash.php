@@ -9,7 +9,7 @@ use Magento\Quote\Api\Data\CartInterface;
 
 class Cash extends AbstractMethod
 {
-    const METHOD_CODE = 'gdwn_cash_payment';
+    const METHOD_CODE = 'gdwncash_payment';
     protected $_code = self::METHOD_CODE;
 
     protected $_canCapture = true;
