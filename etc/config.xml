@@ -6,7 +6,7 @@
                 <active>0</active>
                 <title>GDWN Bank transfer</title>
                 <order_status>pending</order_status>
-                <model>CodeCustom\StaticPayment\Model\BankTransfer</model>
+                <model>CodeCustom\StaticPayment\Model\BankTransferPay</model>
                 <group>offline</group>
             </gdwn_banktransfer_payment>
             <gdwn_cash_payment>

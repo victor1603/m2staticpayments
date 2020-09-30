@@ -7,7 +7,7 @@ use Magento\Payment\Model\InfoInterface;
 use Magento\Payment\Model\Method\AbstractMethod;
 use Magento\Quote\Api\Data\CartInterface;
 
-class BankTransfer extends AbstractMethod
+class BankTransferPay extends AbstractMethod
 {
     const METHOD_CODE = 'gdwn_banktransfer_payment';
 
