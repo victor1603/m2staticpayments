@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <section id="payment">
-            <group id="gdwn_banktransfer_payment" translate="label" type="text" sortOrder="-1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="gdwn_banktransfer_payment" translate="label" type="text" sortOrder="21" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>GDWN Bank transfer payment</label>
                 <comment>GDWN Bank transfer payment</comment>
                 <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
@@ -21,7 +21,7 @@
                     <source_model>Magento\Shipping\Model\Config\Source\Allmethods</source_model>
                 </field>
             </group>
-            <group id="gdwn_cash_payment" translate="label" type="text" sortOrder="-1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="gdwn_cash_payment" translate="label" type="text" sortOrder="22" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>GDWN Cash payment</label>
                 <comment>GDWN Cash payment</comment>
                 <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
