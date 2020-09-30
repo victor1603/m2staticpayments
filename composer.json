@@ -1,0 +1,21 @@
+{
+    "name": "codecustom/module-static-payment",
+    "description": "Magento 2 static payments methods",
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Pankovych",
+            "email": "pankovych.v@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CodeCustom\\CodeCustom_StaticPayment\\": ""
+        }
+    }
+}

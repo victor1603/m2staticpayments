@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="payment">
+            <group id="gdwn_banktransfer_payment" translate="label" type="text" sortOrder="-1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>GDWN Bank transfer payment</label>
+                <comment>GDWN Bank transfer payment</comment>
+                <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Включить GDWN Bank transfer payment</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="title" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Название способа оплаты для Storefront</label>
+                </field>
+                <field id="order_status" translate="label" type="select" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Новый статус заказа</label>
+                    <source_model>Magento\Sales\Model\Config\Source\Order\Status\NewStatus</source_model>
+                </field>
+                <field id="allowed_carrier" translate="label" type="multiselect" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Допустимые методы доставки</label>
+                    <source_model>Magento\Shipping\Model\Config\Source\Allmethods</source_model>
+                </field>
+            </group>
+            <group id="gdwn_cash_payment" translate="label" type="text" sortOrder="-1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>GDWN Cash payment</label>
+                <comment>GDWN Cash payment</comment>
+                <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Включить GDWN Cash payment</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="title" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Название способа оплаты для Storefront</label>
+                </field>
+                <field id="order_status" translate="label" type="select" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Новый статус заказа</label>
+                    <source_model>Magento\Sales\Model\Config\Source\Order\Status\NewStatus</source_model>
+                </field>
+                <field id="allowed_carrier" translate="label" type="multiselect" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Допустимые методы доставки</label>
+                    <source_model>Magento\Shipping\Model\Config\Source\Allmethods</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
